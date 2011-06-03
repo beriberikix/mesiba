@@ -1,0 +1,1 @@
+ var people = "I'm a person!";

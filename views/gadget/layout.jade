@@ -1,0 +1,10 @@
+!!!
+html
+  head
+    title iFrame
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js')
+    script(src='http://localhost:3000/nowjs/now.js')
+    - each feature in features
+      script(src=feature)
+  body!= body
