@@ -1,0 +1,22 @@
+{ "name": "mesiba"
+, "description": "Framework for OpenSocial running on Node.js - eventual Shindig project"
+, "version": "0.0.1"
+, "keywords": 
+  [ "opensocial"
+    , "shindig"
+    , "gadget"
+  ]
+, "licenses": 
+  [ { "type": "APACHE"
+    , "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+, "repository": 
+  { "type": "git"
+  , "git@github.com:beriberikix/mesiba.git"
+  }
+, "dependencies":
+  { "express": "2.x"
+  , "now": "0.x"
+  }
+}
